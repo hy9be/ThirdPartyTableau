@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ScreenDoor</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap-multiselect.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/daterangepicker.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/rest-tutorial.css">
+  <script src="https://tableaubeta.interworks.com/javascripts/api/tableau-2.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="/js/example.js"></script>
+  <script src="/js/bootstrap-multiselect.js"></script>
+  <script src="/js/moment.min.js"></script>
+  <script src="/js/daterangepicker.js"></script>
+</head>
+
+<body>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <% include ./partials/modal %>
+  </div>
+  <!-- End Modal -->
+
+
+  <nav class="navbar navbar-default">
+    <% include ./partials/nav %>
+  </nav>
+  <div class="container">
+    <% include ./partials/header %>
+      <div class="container">
+        <div class="column glossary-buttons">
+          <div class="text-center">
+            <ul class="pagination">
+              <li><a href="#A">A</a></li>
+              <li><a href="#B">B</a></li>
+              <li><a href="#C">C</a></li>
+              <li><a href="#D">D</a></li>
+              <li><a href="#E">E</a></li>
+              <li><a href="#F">F</a></li>
+              <li><a href="#G">G</a></li>
+              <li><a href="#H">H</a></li>
+              <li><a href="#I">I</a></li>
+              <li><a href="#J">J</a></li>
+              <li><a href="#K">K</a></li>
+              <li><a href="#L">L</a></li>
+              <li><a href="#M">M</a></li>
+              <li><a href="#N">N</a></li>
+              <li><a href="#O">O</a></li>
+              <li><a href="#P">P</a></li>
+              <li><a href="#Q">Q</a></li>
+              <li><a href="#R">R</a></li>
+              <li><a href="#S">S</a></li>
+              <li><a href="#T">T</a></li>
+              <li><a href="#U">U</a></li>
+              <li><a href="#V">V</a></li>
+              <li><a href="#W">W</a></li>
+              <li><a href="#X">X</a></li>
+              <li><a href="#Y">Y</a></li>
+              <li><a href="#Z">Z</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="column glossary-content">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> A </h3></div>
+            <div class="panel-body">Alabama
+              <br>Alaska
+              <br>Arizona</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> B </h3></div>
+            <div class="panel-body">Breakfast
+              <br>Boeing</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> C </h3></div>
+            <div class="panel-body">Cosmo</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> D </h3></div>
+            <div class="panel-body">Delta</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> E </h3></div>
+            <div class="panel-body">Echo
+              <br>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> F </h3></div>
+            <div class="panel-body">Farewell
+              <br>Fake</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> G </h3></div>
+            <div class="panel-body">Georgia</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> H </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> I </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> J </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> K </h3></div>
+            <div class="panel-body">Kramer</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> L </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> M </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> N </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> O </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> P </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> Q </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> R </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> S </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> T </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> U </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> V </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> W </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> X </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> Y </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> Z </h3></div>
+            <div class="panel-body">Panel content</div>
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>

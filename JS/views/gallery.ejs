@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ScreenDoor</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap-multiselect.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/rest-tutorial.css">
+	<script src="https://tableaubeta.interworks.com/javascripts/api/tableau-2.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="/js/gallery.js"></script>
+	<script src="/js/bootstrap-multiselect.js"></script>
+	<script src="/js/moment.min.js"></script>
+	<script src="/js/daterangepicker.js"></script>
+</head>
+
+<body>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<% include ./partials/modal %>
+	</div>
+	<!-- End Modal -->
+
+
+	<nav class="navbar navbar-default">
+		<% include ./partials/nav %>
+	</nav>
+	<div class="container">
+		<% include ./partials/header %>
+			<!-- <input type="text" name="daterange" filter="Order Date" value="01/04/2011 - 12/31/2014" /> -->
+			<div id="myGallery"></div>
+
+	</div>
+</body>
+
+</html>

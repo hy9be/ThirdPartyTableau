@@ -1,0 +1,22 @@
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="ui secondary pointing menu">
+  <a class="<%= currentPage=='overview'?'active':'' %> item" href="/flights">
+    Flights
+  </a>
+  <a class="<%= currentPage=='overview'?'active':'' %> item">
+    Code
+  </a>
+  <a class="<%= currentPage=='overview'?'active':'' %> item">
+    Video
+  </a>
+  <div class="ui right dropdown item">
+    Export
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <div class="item" id="pdfExport">PDF</div>
+      <div class="item" id="csvExport">CSV</div>
+      <div class="item" id="imageExport">IMG</div>
+      <div class="item" id="workbookExport">Workbook</div>
+    </div>
+  </div>
+</div>

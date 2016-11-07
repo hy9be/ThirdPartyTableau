@@ -1,0 +1,51 @@
+
+input{
+  color:#333;
+}
+input[name="daterange"]{
+  width: 167px;
+}
+
+.modal-content{
+  color:#333;
+}
+
+.daterangepicker{
+  color: #333;
+}
+tbody tr:hover{
+  color:#333;
+}
+
+.glossary-content{
+  color:#333;
+}
+
+#myGallery{
+  position:relative;
+}
+#myGallery img{
+  display:none;
+  position:absolute;
+  top:0;
+  left:0;
+}
+#myGallery img.active{
+  display:block;
+}
+
+span.glyphicon-envelope,
+span.glyphicon-flag,
+span.glyphicon-pencil{
+  margin-right: 5px;
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}

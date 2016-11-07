@@ -1,0 +1,13 @@
+<% if(filters){%>
+  <% for(var i=0; i<filters.length; i++) {%>
+    <% if(filters[i].type==='multiple'){%>
+      <select class="viz-filter" multiple="multiple" filter="<%= filters[i].title %>">
+        <% for(var j=0; j<filters[i].options.length; j++) {%>
+          <option value="<%= filters[i].options[j] %>">
+            <%= filters[i].options[j] %>
+          </option>
+        <% } %>
+      </select>
+    <% } %>
+  <% } %>
+<% } %>

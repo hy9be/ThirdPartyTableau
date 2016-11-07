@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ScreenDoor</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/rest-tutorial.css">
+	<link rel="shortcut icon" href="/images/favDoor.png" />
+	<script src="https://public.tableau.com/javascripts/api/tableau-2.1.0.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/underscorejs/1.8.3/underscore-min.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script type='text/javascript' src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"> </script>
+	<script src="/js/example.js"></script>
+</head>
+
+<body>
+		<% include ./partials/nav %>
+	<div class="ui container">
+		<% include ./partials/header %>
+		<!-- <% include ./partials/filters %> -->
+			<div class="ui equal width grid">
+				<div class="column">
+					<svg width="500" height="500"></svg>
+				</div>
+				<% include ./partials/viz %>
+		</div>
+	</div>
+</body>
+
+</html>
