@@ -8,7 +8,7 @@ Tools like PowerBI and Microstrategy can integrate R and JavaScript d3 charts in
 Goals
 - 
 
-##R integration
+## R integration
 R examples require Tableau's R integration. Get started here:
 https://onlinehelp.tableau.com/current/pro/desktop/en-us/r_connection_manage.html
 
@@ -21,7 +21,7 @@ Limitations:
 - Web part does not refresh automatically
 - Need two run and rserve and serveR on the localhosts, not easy to publish to the web
 
-##JavaScript Integration
+## JavaScript Integration
 
 The JavaScript example shows how the Tableau Server JavaScript API can extend dashboards to include third party JavaScript charts using the same data.
 
